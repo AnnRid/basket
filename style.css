@@ -16,4 +16,8 @@ div {
 	margin-left: 10px;
 	background: #fafafa;
 }
+input[type='button'] {
+	margin-top: 20px;
+	padding: 5px;
+}
 

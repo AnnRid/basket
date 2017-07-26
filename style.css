@@ -1,19 +1,11 @@
-.paragraph p {
-	font-size: 2rem;
-	padding: 10px;
-	background: #fafafa;
-	color:orange;
-}
-.paragraph p+p {
-	color:slategray;
-}
+
 .order input {
 	margin:20px 10px 5px;
 	padding-left: 10px;
 }
 .form {
 	width: 450px;
-	height: 200px;
+	height: 150px;
 	margin-left: 10px;
 	
 }

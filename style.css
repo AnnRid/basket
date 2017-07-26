@@ -9,14 +9,33 @@
 	margin-left: 10px;
 	
 }
-.order .addBtn {
-	margin-top: 20px;
+.list {
+	position: relative;
+	width: 350px;
+	top:50px;
+}
+.wrapBtn {
+	position: absolute;
+	left:350px;
+	bottom: 120px;
+}
+.addBtn {
+	position: right;
 	padding: 5px;
 }
-.list {
-	background: #fafafa;
+.delBtn {
+	padding: 5px;
+	margin-top: 15px;
+	margin-left: 20px;
 }
-.list ul {
-	margin: 20px;
-	padding:20px;
+
+table {
+	border:1px solid red;
+	border-spacing: 8px 24px;
+	margin-left: 10px;
+
 }
+td, th {
+	padding: 8px
+}
+

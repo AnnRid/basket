@@ -4,3 +4,16 @@ p {
 	background: #fafafa;
 	color:orange;
 }
+p+p {
+	color:slategray;
+}
+input {
+	margin: 0 10px 10px;
+}
+div {
+	width: 450px;
+	height: 250px;
+	margin-left: 10px;
+	background: #fafafa;
+}
+

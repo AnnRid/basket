@@ -6,25 +6,28 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="paragraph">
 <p>лежит бутеброд, никто не ест.</p>
 <p>ну и пусть лежит.</p>
+</div>
 
-<form action="#">
-	<input type="text" class="" placeholder="наименование" />
-	<input type="text" class="" placeholder="артикул" />
-	<br />
-	<input type="text" class="" placeholder="количество" />
-	<input type="text" class="" placeholder="стоимость" />
-</form>
+<div class='order form'>
+	<input type="text" class="name" placeholder="наименование" />
+	<input type="text" class="code" placeholder="артикул" />
+	<input type="text" class="quantity" placeholder="количество" />
+	<input type="text" class="amount" placeholder="стоимость" />
 
-<div>
+	<input type="button" class="addBtn" value="добавить в корзину">
+</div>
+
+<div class='list form'>
 	<ul>
 		<li>Лошадь RK-253 1шт 5550 руб</li>
 		<li></li>
 		<li></li>
 	</ul>
 </div>
-<input type="button" value="добавить в корзину">
+
 <script src='script.js'></script>
 </body>
 </html>

@@ -1,23 +1,30 @@
-p {
+.paragraph p {
 	font-size: 2rem;
 	padding: 10px;
 	background: #fafafa;
 	color:orange;
 }
-p+p {
+.paragraph p+p {
 	color:slategray;
 }
-input {
-	margin: 0 10px 10px;
+.order input {
+	margin:20px 10px 5px;
+	padding-left: 10px;
 }
-div {
+.form {
 	width: 450px;
-	height: 250px;
+	height: 200px;
 	margin-left: 10px;
-	background: #fafafa;
+	
 }
-input[type='button'] {
+.order .addBtn {
 	margin-top: 20px;
 	padding: 5px;
 }
-
+.list {
+	background: #fafafa;
+}
+.list ul {
+	margin: 20px;
+	padding:20px;
+}

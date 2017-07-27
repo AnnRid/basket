@@ -5,37 +5,30 @@
 }
 .form {
 	width: 450px;
-	height: 150px;
 	margin-left: 10px;
-	
 }
 .list {
 	position: relative;
-	width: 350px;
-	top:50px;
+}
+.wrap-list {
+	margin-top: 50px;
+	margin-left: 15px;
+	width: 460px;
+	border: 1px solid red;
 }
 .wrapBtn {
 	position: absolute;
 	left:350px;
-	bottom: 120px;
+	bottom: 25px;
 }
-.addBtn {
-	position: right;
+input[type='button'] {
 	padding: 5px;
-}
-.delBtn {
-	padding: 5px;
-	margin-top: 15px;
-	margin-left: 20px;
-}
 
+}
 table {
-	border:1px solid red;
 	border-spacing: 8px 24px;
-	margin-left: 10px;
-
 }
 td, th {
-	padding: 8px
+	padding: 8px;
 }
 

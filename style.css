@@ -7,27 +7,32 @@
 	width: 450px;
 	margin-left: 10px;
 }
+
 .list {
 	position: relative;
 }
+
 .wrap-list {
 	margin-top: 50px;
 	margin-left: 15px;
 	width: 460px;
 	border: 1px solid red;
 }
+
 .wrapBtn {
 	position: absolute;
 	left:350px;
 	bottom: 25px;
 }
+
 input[type='button'] {
 	padding: 5px;
-
 }
+
 table {
 	border-spacing: 8px 24px;
 }
+
 td, th {
 	padding: 8px;
 }

@@ -4,26 +4,27 @@ var basket =(function(){
   var total =0;
   var addOrder = document.querySelector('.container-basket');
   addOrder.innerHTML = '';
-  
+
   return { 
     addGoods: function(product) {
       list.push(product);
     },
     countSum: function() {
       for(var i=0;i<list.length;i++) {
-      total += list[i].price;
+        total += list[i].amount;
       }
       return total;
     },
     addList: function() {
-      return list.fgitorEach(function(elem) {
-      addOrder.innerHTML +=
-      '<td>' + elem.name + '</td>' +
-      '<td>' + elem.code + '</td>'  
+      return list.forEach(function(elem) {
+        addOrder.innerHTML +=
+        '<td>' + elem.name + '</td>' +
+        '<td>' + elem.code + '</td>' + 
+        '<td>' + elem.quantity + '</td>' + 
+        '<td>' + elem.amount + '</td>'  
       })
     }
 
   }
 }());
-
 

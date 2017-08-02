@@ -16,7 +16,7 @@ var basket =(function(){
       return total;
     },
     fillListGoods: function() {
-      var containerBasket = document.querySelector('.container-basket');
+      
 
 		var arrTd = listGoods.map (function(elem) {
 		var newTr = document.createElement('tr');
@@ -39,9 +39,7 @@ var basket =(function(){
 
 		return newTr;
 		})
-		return arrTd.forEach(function(item) {
-		containerBasket.appendChild(item);
-		})
+		return arrTd;
 	}
 
   }

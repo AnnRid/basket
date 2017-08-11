@@ -1,7 +1,7 @@
 var basket =(function(){
 	var listGoods = [];
   	var total =0;
-	return { 
+  	return { 
    	addGoods: function(product) {
       	listGoods.push(product);
    	},
@@ -32,12 +32,24 @@ var basket =(function(){
 				var price = document.createElement('td');
 				price.innerHTML = elem.price;
 				newTr.appendChild(price);
+
+				// ---проверка-------
+				console.log(newTr);
+				console.log('===============');
 				return newTr;
 			})
 			return arrTd;
+		},
+		removeGoods: function (articul) {
+			listGoods = listGoods.filter(function(obj){
+				return obj.articul !== articul;
+			})
 		}
-  }
+   }
 }());
+
+
+
 
 
 
